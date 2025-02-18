@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    public static InventoryManager Instance;  // Singleton instance
-    public GameObject inventoryPanel;  // Reference to the inventory panel
+    public static InventoryManager Instance;  
+    public GameObject inventoryPanel;  
 
     void Awake()
     {
@@ -17,11 +17,11 @@ public class InventoryManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        inventoryPanel.SetActive(false);  // Ensure inventory is hidden on start
+        inventoryPanel.SetActive(false);  
     }
 
     public void ToggleInventory()
     {
-        inventoryPanel.SetActive(!inventoryPanel.activeSelf);  // Toggle the visibility
+        inventoryPanel.SetActive(!inventoryPanel.activeSelf); 
     }
 }
