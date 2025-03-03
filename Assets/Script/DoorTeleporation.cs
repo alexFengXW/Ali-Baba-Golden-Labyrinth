@@ -10,7 +10,7 @@ public class DoorTeleporter : MonoBehaviour
          Debug.Log("Trigger entered by: " + other.name); // Check if the trigger is being hit
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(targetScene, LoadSceneMode.Single);
+            SceneManager.LoadScene(targetScene, LoadSceneMode.Single);  
             SceneManager.sceneLoaded += OnSceneLoaded;
         }
     }
