@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BattleRoom.unity
+    path: Assets/Scenes/levelOne.unity
     guid: 685599bc756586f4da2591b8f97eea34
   - enabled: 1
     path: Assets/Scenes/HomeSweetHome.unity
